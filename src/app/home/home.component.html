@@ -1,0 +1,16 @@
+<div>
+  <h3> Welcome to Home Component! </h3>
+
+  <div>
+    <h4>ngFor loop demo</h4>
+    <ul *ngFor="let color of colors">
+      <li>{{color}}</li>
+    </ul>
+  </div>
+
+  <div *ngIf="getResponse">
+    <h4>HTTP Get demo</h4>
+    <p>{{getResponse.id}} {{getResponse.title}} {{getResponse.completed}}</p>
+  </div>
+
+</div>
