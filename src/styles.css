@@ -29,7 +29,8 @@ a:visited {
 .h11 {
   font-size: 2em;
   color: teal;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center
 }
 
 .body {
@@ -48,16 +49,84 @@ a:visited {
 footer {
   position: fixed;
   height: 50px;
-  bottom: 0px;
-  left: auto;
-  right: auto;
-  margin-bottom: 0px;
-  margin: 0 auto;
-  margin-left: 0%;
-  margin-right: 0%;
+  bottom: -10px;
+  left: 40em;
   font-size: small;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: teal
+  color: teal;
+}
+
+.header {
+  padding: -50px;
+  text-align: center;
+  font-size: 2em;
+  color: teal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .column.side,
+  .column.middle {
+    width: 100%;
+  }
+}
+
+.footer1 {
+  position: fixed;
+  left: 40em;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: teal;
+  height: 50px;
+  bottom: -10px;
+  font-size: small;
 }
 
 /**

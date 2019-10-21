@@ -1,25 +1,21 @@
-<div class=h11>
+<div class=header>
   <p> {{title}} </p>
 </div>
 
-<div class=navigation>
-  <ul>
-    <li>
-      <a routerLink="">Home</a>
-    </li>
-    <li>
-      <a routerLink="about">About</a>
-    </li>
-    <li>
-      <a routerLink="relationship">Entity Structure</a>
-    </li>
-  </ul>
+<div class=topnav>
+  <a routerLink="">Home</a>
+  <a routerLink="about">About</a>
+  <a routerLink="relationship">Entity Structure</a>
 </div>
 
-<div>
-  <router-outlet></router-outlet>
+<div class=row>
+  <div class="column side"></div>
+  <div class="column middle">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="column side"></div>
 </div>
 
-<footer class=footer>
+<div class=footer1>
   <p>{{contributor}}</p>
-</footer>
+</div>
