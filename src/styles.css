@@ -3,42 +3,56 @@
 }
 
 .oc-background {
-  background-color: cornflowerblue;
+  background-color: #003666;
+}
+
+a:visited {
+  color: teal
+}
+
+.navigation {
+  color: teal
 }
 
 .oc-name {
-  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-family: sans-serif;
   white-space: nowrap;
+  font-size: -2em
 }
 
 .oc-designation {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
   font-style: italic;
   white-space: nowrap;
-  font-size: small;
+  font-size: small
+}
+
+.h11 {
+  font-size: 2em;
+  color: teal
 }
 
 .body {
   background-color: #181818;
-  margin-bottom: 50px
-}
-
-html * {
+  margin-bottom: 50px;
   font-size: 1em !important;
   color: whitesmoke !important;
+  font-family: sans-serif
 }
 
 footer {
   position: fixed;
   height: 50px;
   bottom: 30px;
-  left: 0px;
-  right: 0px;
+  left: auto;
+  right: auto;
   margin-bottom: 0px;
   margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto
-
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: small;
+  font-family: sans-serif;
+  color: cadetblue
 }
 
 /**
