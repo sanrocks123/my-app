@@ -15,21 +15,21 @@ a:visited {
 }
 
 .oc-name {
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   white-space: nowrap;
   font-size: -2em
 }
 
 .oc-designation {
-  font-family: sans-serif;
-  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   white-space: nowrap;
   font-size: small
 }
 
 .h11 {
   font-size: 2em;
-  color: teal
+  color: teal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .body {
@@ -37,7 +37,7 @@ a:visited {
   margin-bottom: 50px;
   font-size: 1em !important;
   color: whitesmoke !important;
-  font-family: sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 footer {
@@ -51,7 +51,7 @@ footer {
   margin-left: 0%;
   margin-right: 0%;
   font-size: small;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: cadetblue
 }
 
