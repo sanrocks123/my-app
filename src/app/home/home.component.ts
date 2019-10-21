@@ -14,8 +14,7 @@ import { EmployeeService } from '../services/EmployeeService.service';
  */
 export class HomeComponent {
 
-  public colors = ["red", "blue", "green"];
-  public getResponse: Object= null;
+  public getResponse: Object = null;
 
   constructor(private http: EmployeeService) {
     console.log('employee service injected' + http);

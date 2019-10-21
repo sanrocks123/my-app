@@ -15,7 +15,7 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'orgchart',
+    path: 'relationship',
     component: OrgChartComponent
   }
 ]
