@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  private title = 'Angular 6.0';
+  public title = 'Sanrockzz Onboarding';
 
   ngOnInit() {
     console.log('starting app')

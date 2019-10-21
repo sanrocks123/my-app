@@ -15,16 +15,17 @@ export class OrgChartComponent implements OnInit {
   topEmployee: any = {
     name: 'Janis Martin',
     designation: 'Order Placer',
-    img: "./assets/data/img/b.JPG",
+    //img: "./assets/data/img/b.jpga",
     subordinates: [
       {
         name: 'Matthew Wikes',
         designation: 'Beneficial Owner',
-        img: "./assets/data/img/b.JPG",
+        //img: "./assets/data/img/b.jpga",
         subordinates: [
           {
             name: 'Tina Landry',
             designation: 'CEO',
+            //img: "./assets/data/img/c.jpga",
             subordinates: []
           }
 
@@ -33,18 +34,18 @@ export class OrgChartComponent implements OnInit {
       {
         name: 'Patricia Lyons',
         designation: 'Donor',
-        img: "./assets/data/img/c.JPG",
+        //img: "./assets/data/img/c.jpga",
         subordinates: [
           {
             name: 'Dylan Wilson',
             designation: 'Director',
-            img: "./assets/data/img/b.JPG",
+            //img: "./assets/data/img/b.jpga",
             subordinates: []
           },
           {
             name: 'Deb Curtis',
             designation: 'Limited Partner',
-            img: "./assets/data/img/c.JPG",
+            //img: "./assets/data/img/c.jpga",
             subordinates: []
           }
         ]
@@ -52,7 +53,7 @@ export class OrgChartComponent implements OnInit {
       {
         name: 'Larry Phung',
         designation: 'Settlor',
-        img: "./assets/data/img/a.JPG",
+        //img: "./assets/data/img/a.jpga",
         subordinates: []
       }
     ]
