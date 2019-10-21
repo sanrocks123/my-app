@@ -40,6 +40,11 @@ a:visited {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.about {
+  font-size: 1em !important;
+  color: cadetblue
+}
+
 footer {
   position: fixed;
   height: 50px;
