@@ -16,7 +16,7 @@ export class OrgChartComponent implements OnInit {
   topEmployee: any = {
     name: 'Janis Martin',
     designation: 'Order Placer',
-    img: "./assets/data/img/b.jpg",
+    img: "./assets/data/img/a.jpg",
     subordinates: [
       {
         name: 'Matthew Wikes',
