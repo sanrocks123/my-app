@@ -4,11 +4,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './main/app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './routing/app-routing.module';
 import { OrgChartModule } from 'ng2-org-chart';
 import { OrgChartComponent } from './org-chart/org-chart.component';
 
-@NgModule({
+/**
+ * App main entry point module
+ * 
+ */
+
+ @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
@@ -24,4 +29,5 @@ import { OrgChartComponent } from './org-chart/org-chart.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

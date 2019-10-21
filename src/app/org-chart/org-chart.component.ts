@@ -10,6 +10,7 @@ export class OrgChartComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('OrgChart initialized')
   }
 
   topEmployee: any = {

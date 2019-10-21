@@ -1,22 +1,21 @@
-
 .oc-border {
-    border: 1px solid blue;
+  border: 1px solid blue;
 }
- 
+
 .oc-background {
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
- 
+
 .oc-name {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    white-space: nowrap;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  white-space: nowrap;
 }
- 
+
 .oc-designation {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    white-space: nowrap;
-    font-size: small
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  white-space: nowrap;
+  font-size: small;
 }
 
 /**
