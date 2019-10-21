@@ -25,7 +25,7 @@ export class OrgChartComponent implements OnInit {
         subordinates: [
           {
             name: 'Tina Landry',
-            designation: 'CEO',
+            designation: 'Fund Manager',
             img: "./assets/data/img/b.jpg",
             subordinates: []
           }
@@ -34,7 +34,7 @@ export class OrgChartComponent implements OnInit {
       },
       {
         name: 'Patricia Lyons',
-        designation: 'Donor',
+        designation: 'Authorized Person',
         img: "./assets/data/img/a.jpg",
         subordinates: [
           {
