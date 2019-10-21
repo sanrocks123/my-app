@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  public title = 'Sanrockzz Onboarding';
+  public title = 'Sanrockzz Onboarding'
+  public contributor = 'Sanjeev Saxena (sanrocks123@gmail.com)'
 
   ngOnInit() {
     console.log('starting app')

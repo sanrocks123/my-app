@@ -1,6 +1,7 @@
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+App hosted at - https://sanrocks123.github.io/my-app/
 
 ## Development server
 
